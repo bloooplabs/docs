@@ -2,7 +2,7 @@
   "$schema": "https://mintlify.com/docs.json",
 
   "name": "Blooop",
-  "theme": "linden",
+  "theme": "almond",
 
   "colors": {
     "primary": "#CF3636",
