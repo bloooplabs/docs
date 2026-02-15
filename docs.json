@@ -2,15 +2,15 @@
   "$schema": "https://mintlify.com/docs.json",
 
   "name": "Blooop",
-  "theme": "mint",
+  "theme": "willow",
 
   "colors": {
-    "primary": "#6D28D9"
+    "primary": "#000000"
   },
 
   "logo": {
-    "light": "/images/logo.svg",
-    "dark": "/images/logo.svg"
+    "light": "/images/logo-dark.svg",
+    "dark": "/images/logo-light.svg"
   },
 
   "navigation": {
