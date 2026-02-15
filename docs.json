@@ -1,24 +1,35 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "name": "Blooop",
+  "logo": {
+    "dark": "/images/logo.svg",
+    "light": "/images/logo.svg"
+  },
   "navigation": [
     {
-      "group": "Blooop",
+      "group": "Getting Started",
       "pages": [
         "index",
         "blooop/introduction",
         "blooop/vision",
-        "blooop/user-flow",
+        "blooop/get-started",
+        "blooop/user-flow"
+      ]
+    },
+    {
+      "group": "Product",
+      "pages": [
         "blooop/architecture",
         "blooop/dashboard",
         "blooop/mobile-app",
         "blooop/execution-models",
         "blooop/marketplace",
-        "blooop/security",
-        "blooop/community",
-        "blooop/roadmap",
-        "blooop/positioning"
+        "blooop/security"
       ]
+    },
+    {
+      "group": "Ecosystem",
+      "pages": ["blooop/community", "blooop/roadmap", "blooop/positioning"]
     }
   ]
 }
