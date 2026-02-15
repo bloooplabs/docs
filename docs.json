@@ -1,14 +1,14 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-
   "name": "Blooop",
   "theme": "mint",
-
-  "logo": {
-    "dark": "/images/logo.svg",
-    "light": "/images/logo.svg"
+  "colors": {
+    "primary": "#6D28D9"
   },
-
+  "logo": {
+    "light": "/images/logo-light.svg",
+    "dark": "/images/logo-dark.svg"
+  },
   "navigation": [
     {
       "group": "Getting Started",
