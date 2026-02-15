@@ -5,11 +5,10 @@
   "theme": "almond",
 
   "colors": {
-    "primary": "#CF3636",
-    "light": "#000000",
-    "dark": "#FFFFFF"
-  },
-
+  "primary": "#CF3636",
+  "light": "#000000",
+  "dark": "#FFFFFF"
+},
   "logo": {
     "light": "/images/logo-dark.png",
     "dark": "/images/logo-light.png"
