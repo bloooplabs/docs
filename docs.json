@@ -5,7 +5,9 @@
   "theme": "linden",
 
   "colors": {
-    "primary": "#CF3636"
+    "primary": "#CF3636",
+    "light": "#000000",
+    "dark": "#FFFFFF"
   },
 
   "logo": {
