@@ -4,7 +4,7 @@
   "name": "Blooop",
   "theme": "almond",
 
-  "colors": { "primary": "#CF3636" },
+  "colors": { "accentPrimary": "#CF3636" },
   "logo": {
     "light": "/images/logo-dark.png",
     "dark": "/images/logo-light.png"
