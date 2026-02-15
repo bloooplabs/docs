@@ -2,10 +2,12 @@
   "$schema": "https://mintlify.com/docs.json",
 
   "name": "Blooop",
-  "theme": "willow",
+  "theme": "linden",
 
   "colors": {
-    "primary": "#111111"
+    "primary": "#000000",
+    "light": "#000000",
+    "dark": "#FFFFFF"
   },
 
   "logo": {
