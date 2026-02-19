@@ -1,4 +1,4 @@
-# Dashboard App Changelog
+# Changelog
 
 This page tracks development updates for the Blooop Dashboard.
 
@@ -9,6 +9,7 @@ This page tracks development updates for the Blooop Dashboard.
 **February 2026**
 
 ### Added
+
 - Real Google OAuth authentication with session management
 - Agent creation wizard (4-step flow: Name, Provider, Plan, Configure)
 - Real VPS provisioning via cloud provider API with OpenClaw 1-click images
@@ -22,12 +23,14 @@ This page tracks development updates for the Blooop Dashboard.
 - PostgreSQL database with Drizzle ORM for all data persistence
 
 ### Changed
+
 - Cloud provider names obfuscated in UI as "Blooop 1" and "Blooop 2"
 - Models stored in OpenClaw format (e.g. `ollama/llama3.3`, `openai/gpt-4o`)
 - Cloud provider regions updated to match official availability (removed invalid regions, added missing ones)
 - VPS error messages now show specific failure reasons instead of generic "VPS failed"
 
 ### Removed
+
 - Payment step from agent creation wizard (was step 5, now deploy directly from Configure)
 - Wallet address and transaction hash inputs
 - Payment API call during agent creation
@@ -39,18 +42,21 @@ This page tracks development updates for the Blooop Dashboard.
 **February 2026**
 
 ### Building
+
 - Core dashboard layout structure
 - Navigation sidebar system
 - Base page routing
 - Initial component scaffolding
 
 ### UI
+
 - Agent deployment interface (initial design)
 - Execution monitoring panel (UI draft)
 - Skill installation flow (layout stage)
 - Cloud provisioning screen structure
 
 ### In Progress
+
 - Responsive layout optimization
 - Component state handling
 - Data binding to backend services
