@@ -1,15 +1,41 @@
----
-title: Dashboard App
-description: Dashboard release notes and development progress.
----
-
 # Dashboard App Changelog
 
 This page tracks development updates for the Blooop Dashboard.
 
 ---
 
+## v0.2.0 — Agent Creation & Cloud Integration
+
+**February 2026**
+
+### Added
+- Real Google OAuth authentication with session management
+- Agent creation wizard (4-step flow: Name, Provider, Plan, Configure)
+- Real VPS provisioning via cloud provider API with OpenClaw 1-click images
+- AI model selection with Free vs Paid categories and colored labels
+- Free models: Ollama Llama 3.3, Ollama DeepSeek, Google Gemini Flash, Groq Llama 3.3 70B
+- Paid models: OpenAI GPT-4o, OpenAI GPT-4o-mini, Anthropic Claude 3.5, Anthropic Claude 3 Haiku
+- Conditional API key input for paid model selections
+- Channel selection (Discord, Telegram, Slack, Web) in agent configuration
+- Agent detail page with VPS status, controls (start/stop/restart/delete)
+- Activity feed tracking agent deployments
+- PostgreSQL database with Drizzle ORM for all data persistence
+
+### Changed
+- Cloud provider names obfuscated in UI as "Blooop 1" and "Blooop 2"
+- Models stored in OpenClaw format (e.g. `ollama/llama3.3`, `openai/gpt-4o`)
+- Cloud provider regions updated to match official availability (removed invalid regions, added missing ones)
+- VPS error messages now show specific failure reasons instead of generic "VPS failed"
+
+### Removed
+- Payment step from agent creation wizard (was step 5, now deploy directly from Configure)
+- Wallet address and transaction hash inputs
+- Payment API call during agent creation
+
+---
+
 ## v0.1.0 — Dashboard UI Foundation
+
 **February 2026**
 
 ### Building
@@ -31,5 +57,6 @@ This page tracks development updates for the Blooop Dashboard.
 
 ---
 
-> Dashboard interface is currently under active development.  
+> Dashboard interface is currently under active development.
+>
 > Functional execution and infrastructure integrations will follow in upcoming releases.
