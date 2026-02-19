@@ -49,6 +49,13 @@
               "blooop/positioning",
               "blooop/tokenomics"
             ]
+          },
+          {
+            "group": "Changelog",
+            "pages": [
+              "mobile-app-mdx",
+              "dashboard-app-mdx"
+            ]
           }
         ]
       }
