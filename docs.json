@@ -53,8 +53,8 @@
           {
             "group": "Changelog",
             "pages": [
-              "mobile-app-mdx",
-              "dashboard-app-mdx"
+              "mobile-app",
+              "dashboard-app"
             ]
           }
         ]
